@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#banner{
+    background: url('./images/banner1.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color:black;
+    
+    padding: 10px;
+}
+ 
+.container-border{
+    border: 1px solid blue;
+    margin: 2rem;
+    
+}
+
+.cards-wrapper{
+    display: flex;
+}
+.cards{
+    margin: 0 0.5em;
+
+}
+
+
+a{
+    color: black;
+    font-weight: bold;
+}
+.rating i{
+    color: rgb(218, 218, 35);
+}
+li{
+    list-style-type: none;
+    margin: 8px;
+}
+.copy{
+    color: #f4f4f7;
+    font-weight: 100;
+}
+.copyright{
+    display: flex;
+    justify-content: end;
+    color: #f4f4f7;
+}
